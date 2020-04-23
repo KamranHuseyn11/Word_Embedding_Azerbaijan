@@ -1,1 +1,29 @@
-This is readme
+This is a tutorial for training word embeddings with Word2Vec and Glove algorithms. 
+We also provide little sample data in Azerbaijani language which can be used to learn how to train word embedding models.
+ 
+################################################################################################################
+
+The detailed description for each part is given within py and ipynb files. 
+We highly recommend you to use ipynb files (Jupyter Novtebook,JupyterLab) instead of py scripts
+
+################################################################################################################
+
+FOR WORD2VEC:
+The code should be run in following sequence:
+Corpus_generator   ##filtering and merging data
+Word2Vec_train ##training model
+Vector_executor ##For loading and testing pretrained model
+
+################################################################################################################
+
+FOR GLOVE:
+For training you corpus in GloVe Model, please, refer to following link https://nlp.stanford.edu/projects/glove/
+
+However, you can still use Corpus_generator for filtering data and Vector_executer to load your pretrained model for GloVe
+
+
+################################################################################################################
+
+Note: Corpus_generator is originally written for Azerbaijani language. 
+for training in other languages you should do changes to this part of code
+

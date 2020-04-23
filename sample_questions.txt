@@ -1,0 +1,11 @@
+: Heading semantic 
+man king woman queen
+
+: courtries-cities
+Paris France Berlin Germany
+Moscow Russia Baku Azerbijan
+
+
+: Syntactic analysis
+I mine you yours
+me my you you
